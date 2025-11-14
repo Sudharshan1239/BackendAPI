@@ -31,6 +31,7 @@ namespace BackendAPI.Services
         Employee IPersonService.GetEmployee(int id)
         {
             throw new NotImplementedException();
+            Console.WriteLine("hello");
         }
 
         Task IPersonService.UpdateEmployee(Employee employee, int id)
